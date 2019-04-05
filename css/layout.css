@@ -601,6 +601,9 @@ input:-moz-placeholder {
     .container {
         padding: 0 10px;
     }
+    .header {
+        position: fixed;
+    }
     .header-top .container {
         padding-top: 15px;
         padding-bottom: 15px;
