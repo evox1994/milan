@@ -472,6 +472,9 @@ input:-moz-placeholder {
     -ms-transition: all 0.3s;
     transition: all 0.3s;
 }
+.header-nav li a:hover {
+    color: rgb(19, 89, 68);
+}
 .header-btn {
     display: inline-block;
     padding: 11px 20px;
@@ -484,6 +487,10 @@ input:-moz-placeholder {
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
     transition: all 0.3s;
+}
+.header-btn:hover {
+    background-color: rgb(19, 89, 68);
+    color: #ffffff;
 }
 
 .footer {
@@ -514,6 +521,9 @@ input:-moz-placeholder {
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
     transition: all 0.3s;
+}
+.footer-top ul li a:hover {
+    color: rgb(19, 89, 68);
 }
 .footer-dev-logo {
     display: inline-block;
@@ -547,6 +557,9 @@ input:-moz-placeholder {
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
     transition: all 0.3s;
+}
+.footer-bot ul li a:hover {
+    color: rgb(19, 89, 68);
 }
 .footer-cookie {
     display: block;

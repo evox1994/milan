@@ -8,7 +8,7 @@
 	padding-top: 175px;
 	padding-bottom: 100px;
 }
-.b-1 h1 {
+.b-1 h2 {
 	display: block;
 	color: #000000;
 	font-size: 35px;
@@ -16,10 +16,10 @@
 	font-weight: 300;
 	margin-bottom: 35px;
 }
-.b-1 h1 span {
+.b-1 h2 span {
 	font-weight: 500;
 }
-.b-1 h2 {
+.b-1 h3 {
 	display: block;
 	position: relative;
 	padding-bottom: 22px;
@@ -27,7 +27,7 @@
 	font-size: 20px;
 	line-height: 1.2;
 }
-.b-1 h2::before {
+.b-1 h3::before {
 	content: '';
 	display: block;
 	width: 100px;
@@ -37,7 +37,7 @@
 	bottom: 0;
 	background-color: rgb(19, 89, 68);
 }
-.b-1 h2 span {
+.b-1 h3 span {
 	color: rgb(19, 89, 68);
 }
 
@@ -219,6 +219,10 @@
 	-ms-transition: all 0.3s;
 	transition: all 0.3s;
 }
+.b-3-list .li-btn:hover {
+	background-color: #ffffff;
+	color: #000000;
+}
 
 .b-4 .container {
 	padding-top: 90px;
@@ -286,6 +290,10 @@
 	-ms-transition: all 0.3s;
 	transition: all 0.3s;
 }
+.b-4-item .item-btn:hover {
+	background-color: #ffffff;
+	color: #000000;
+}
 .b-4-btn {
 	display: block;
 	box-sizing: border-box;
@@ -301,6 +309,10 @@
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
 	transition: all 0.3s;
+}
+.b-4-btn:hover {
+	background-color: rgb(19, 89, 68);
+	color: #ffffff;
 }
 
 .b-5 .container {
@@ -590,10 +602,20 @@
 	max-height: 43px;
 	margin: 0 5px;
 }
-.b-9 .social-list li img {
+.b-9 .social-list li a img {
 	display: block;
 	max-width: 100%;
 	margin: 0 auto;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.b-9 .social-list li a:hover img {
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
 }
 .b-9-btn {
 	display: block;
@@ -610,6 +632,10 @@
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
 	transition: all 0.3s;
+}
+.b-9-btn:hover {
+	background-color: #ffffff;
+	color: #000000;
 }
 
 
