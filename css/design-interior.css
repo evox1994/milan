@@ -434,6 +434,13 @@
 	padding: 24px 20px;
 	font-size: 17px;
 	margin: 0 auto;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.b-6-btn:hover {
+	background-color: rgb(39, 109, 88);
 }
 
 .b-7 .container {
