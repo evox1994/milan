@@ -109,4 +109,12 @@ $(document).ready(function(){
 		return false;
 	});
 
+	$('body').on('click','.form-wrap .form-next-btn',function(){
+		var next = $(this).attr('href');
+
+		$(this).parents('form').find('.step').removeClass('active');
+		$(this).parents('form').find(next).addClass('active');
+		return false;
+	});
+
 });
