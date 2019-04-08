@@ -111,9 +111,14 @@ $(document).ready(function(){
 
 	$('body').on('click','.form-wrap .form-next-btn',function(){
 		var next = $(this).attr('href');
+		var btn = this;
 
-		$(this).parents('form').find('.step').removeClass('active');
-		$(this).parents('form').find(next).addClass('active');
+		$(this).parents('form').find('.step').animate({opacity: 0},300);
+		setTimeout(function(){
+			$(btn).parents('form').find('.step').removeClass('active');
+			$(btn).parents('form').find(next).addClass('active');
+			$(btn).parents('form').find('.step').animate({opacity: 1},300);
+		},300);
 		return false;
 	});
 
