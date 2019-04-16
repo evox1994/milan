@@ -1,6 +1,7 @@
 body {
 	padding-top: 115px;
 }
+
 .b-1 {
 	background-image: url('../i/m-b-1-fon.jpg');
 	background-size: cover;
@@ -280,6 +281,37 @@ body {
 .b-3-list .li-btn:hover {
 	background-color: rgba(19, 89, 68, 0.2);
 }
+.b-3-list-2 {
+	display: flex;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	box-sizing: border-box;
+	width: 100%;
+}
+.b-3-list-2 li {
+	width: calc(50% - 15px);
+	margin-bottom: 30px;
+}
+.b-3-list-2 li .image {
+	display: block;
+	width: 100%;
+	position: relative;
+	margin-bottom: 20px;
+}
+.b-3-list-2 li .image a img {
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+}
+.b-3-list-2 li .name {
+	display: block;
+	color: rgb(83, 83, 83);
+	font-size: 18px;
+	line-height: 1.2;
+}
 
 .b-4 {
 	background-color: rgb(232, 241, 236);
@@ -347,6 +379,9 @@ body {
 	text-align: left;
 	font-weight: 500;
 	margin-bottom: 50px;
+}
+.b-4-text p span {
+	color: rgb(19, 89, 68);
 }
 .b-4-btn {
 	display: block;
@@ -454,12 +489,12 @@ body {
 	box-sizing: border-box;
 	padding: 20px;
 	font-size: 18px;
-	color: #ffffff;
+	color: #000000;
 	line-height: 1.2;
-	background-color: rgb(19, 89, 68);
+	background-color: rgb(225, 225, 225);
 }
 .b-6-form .name span {
-	color: #bbe2cc;
+	color: rgb(19, 89, 68);
 }
 .b-6-form form {
 	box-sizing: border-box;
@@ -479,8 +514,8 @@ body {
 	border-radius: 4px;
 	padding: 24px 50px 24px 30px;
 	width: 100%;
-	background-color: rgb(235, 235, 235);
-	border: 1px solid rgb(235, 235, 235);
+	background-color: rgb(232, 241, 236);
+	border: 1px solid rgb(232, 241, 236);
 	font-size: 14px;
 	color: #000000;
 	line-height: 1.2;
@@ -524,7 +559,7 @@ body {
 	display: none;
 	position: absolute;
 	background-color: #ffffff;
-	border: 1px solid rgb(235, 235, 235);
+	border: 1px solid rgb(232, 241, 236);
 	top: 100%;
 	left: 0;
 	width: 100%;
@@ -778,6 +813,12 @@ body {
 	.b-3-list li, .b-5-list li {
 		width: calc(50% - 15px);
 		margin: 0 0 30px !important;
+	}
+	.b-3-list-2 {
+		display: block;
+	}
+	.b-3-list-2 li {
+		width: 100%;
 	}
 	.b-4-wrap {
 		display: block;
