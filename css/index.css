@@ -587,10 +587,14 @@
 		margin: 0 auto 40px;
 	}
 	.b-4-wrap {
-		padding: 70px 10px;
+		padding: 70px 10px 250px;
 	}
 	.b-4-wrap .abs-img {
-		display: none;
+		display: block;
+		max-height: 250px;
+		bottom: -40px;
+		right: 50%;
+		max-width: 100%;
 	}
 	.b-4-wrap .gray-line {
 		top: 25px;
@@ -600,7 +604,7 @@
 	}
 	.b-4-wrap .green-line {
 		bottom: -40px;
-		width: calc(60% + 10px);
+		width: calc(80% + 10px);
 		right: -10px;
 	}
 }

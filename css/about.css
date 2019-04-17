@@ -367,10 +367,14 @@ body {
 		padding-top: 50px;
 	}
 	.b-1-wrap {
-		padding: 70px 20px;
+		padding: 70px 20px 250px;
 	}
 	.b-1-wrap .abs-img {
-		display: none;
+		display: block;
+		max-height: 250px;
+		right: 50%;
+		bottom: -40px;
+		max-width: 100%;
 	}
 	.b-1-wrap .gray-line {
 		top: 25px;
@@ -380,7 +384,7 @@ body {
 	}
 	.b-1-wrap .green-line {
 		bottom: -40px;
-		width: calc(60% + 10px) !important;
+		width: calc(80% + 10px) !important;
 		right: -10px;
 	}
 }
