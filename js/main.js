@@ -103,7 +103,7 @@ $(document).ready(function(){
 
 	$('body').on('click','.scroll-btn',function(){
 		var el = $(this).attr('href');
-		var des = $(el).offset().top - 100;
+		var des = $(el).offset().top - 50;
 
 		$('body,html').animate({scrollTop: des},800);
 		return false;
@@ -120,6 +120,16 @@ $(document).ready(function(){
 			$(btn).parents('form').find('.step').animate({opacity: 1},300);
 		},300);
 		return false;
+	});
+
+	$('.select-fon option').each(function(){
+		var src = $(this).attr('data-fon');
+		$('.no-visible-block').append('<img src="'+src+'">');
+	});
+
+	$('.select-fon').change(function(){
+		var src = $(this).find('option:selected').attr('data-fon');
+		$(this).parents('.b').css({'background-image':'url("'+src+'")'});
 	});
 
 });

@@ -7,6 +7,7 @@ body {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
+	background-attachment: fixed;
 }
 .b-1 .container {
 	padding-top: 115px;
@@ -279,7 +280,8 @@ body {
 	transition: all 0.3s;
 }
 .b-3-list .li-btn:hover {
-	background-color: rgba(19, 89, 68, 0.2);
+	background-color: rgb(19, 89, 68);
+	color: #ffffff;
 }
 .b-3-list-2 {
 	display: flex;

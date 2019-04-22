@@ -840,6 +840,97 @@ input:-moz-placeholder {
     color: rgb(7, 27, 120);
 }
 
+.popup {
+    border-radius: 4px;
+    background-color: #ffffff;
+    max-width: 770px;
+    box-sizing: border-box;
+    width: 95%;
+    padding: 40px 10px;
+    text-align: center;
+}
+.popup:hover {
+    cursor: default;
+}
+.popup-title {
+    display: block;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #000000;
+    line-height: 1.2;
+}
+.popup-subtitle {
+    display: block;
+    font-size: 20px;
+    color: #000000;
+    line-height: 1.2;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.popup-subtitle span {
+    color: rgb(19, 89, 68);
+}
+.popup form {
+    max-width: 430px;
+    width: 100%;
+    margin: 0 auto;
+}
+.popup form input {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 3px;
+    background-color: rgb(232, 241, 236);
+    border: 1px solid rgb(232, 241, 236);
+    color: rgb(86, 86, 86);
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 24px 30px;
+    margin-bottom: 15px;
+    text-align: left;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.popup form input::-webkit-input-placeholder {color:rgb(86, 86, 86);}
+.popup form input::-moz-placeholder          {color:rgb(86, 86, 86);}
+.popup form input:-moz-placeholder           {color:rgb(86, 86, 86);}
+.popup form input:-ms-input-placeholder      {color:rgb(86, 86, 86);}
+.popup form input:focus::-webkit-input-placeholder {color:transparent;}
+.popup form input:focus::-moz-placeholder          {color:transparent;}
+.popup form input:focus:-moz-placeholder           {color:transparent;}
+.popup form input:focus:-ms-input-placeholder      {color:transparent;}
+.popup form input:focus {
+    background-color: #ffffff;
+}
+.popup button {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 24px 30px;
+    border-radius: 3px;
+    background-color: rgb(7, 27, 120);
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    border: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.popup button:hover {
+    background-color: rgb(27, 47, 140);
+}
+.popup .button-text {
+    font-size: 12px;
+    padding-left: 35px;
+    margin-top: 15px;
+}
+
+
 
 
 

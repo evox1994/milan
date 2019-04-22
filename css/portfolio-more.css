@@ -6,7 +6,7 @@ body {
 	padding-top: 80px;
 	padding-bottom: 30px;
 }
-.b-1 h2 {
+.b-1 h1 {
 	display: block;
 	font-size: 35px;
 	text-transform: uppercase;
@@ -16,6 +16,7 @@ body {
 	margin-bottom: 55px;
 }
 .b-1 .info {
+	display: block;
 	font-size: 18px;
 	color: rgb(87, 87, 87);
 	line-height: 1.6;
@@ -34,6 +35,7 @@ body {
 	margin-bottom: 50px;
 }
 .b-2 .item .title {
+	display: block;
 	font-size: 30px;
 	color: #000000;
 	line-height: 1.2;

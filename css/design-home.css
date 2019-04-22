@@ -3,6 +3,11 @@
 	background-position: center;
 	background-size: cover;
 	background-image: url('../i/dh-b-1-fon.jpg');
+	background-attachment: fixed;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	transition: all 0.3s;
 }
 .b-1 .container {
 	padding-top: 175px;
@@ -646,6 +651,10 @@
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	transition: all 0.3s;
 }
 .b-9 .container {
 	padding-top: 95px;
