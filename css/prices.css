@@ -3,6 +3,10 @@
 	background-position: center;
 	background-size: cover;
 	background-image: url('../i/dh-b-1-fon.jpg');
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	transition: all 0.3s;
 }
 .b-1 .container {
 	padding-top: 175px;
@@ -247,6 +251,13 @@
 	position: relative;
 	padding-left: 70px;
 	box-sizing: border-box;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.b-3 .item .texts .text-left .project-a:hover {
+	color: rgb(19, 89, 68);
 }
 .b-3 .item .texts .text-left .project-a img {
 	display: block;
@@ -259,6 +270,16 @@
 	-moz-transform: translateY(-50%);
 	-ms-transform: translateY(-50%);
 	transform: translateY(-50%);
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.b-3 .item .texts .text-left .project-a:hover img {
+	-webkit-filter: brightness(0.8);
+	-moz-filter: brightness(0.8);
+	-ms-filter: brightness(0.8);
+	filter: brightness(0.8);
 }
 .b-3 .item .texts .text-right {
 	width: calc(50% - 15px);

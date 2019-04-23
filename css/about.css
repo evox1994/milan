@@ -57,7 +57,7 @@ body {
 	font-style: italic;
 	padding-left: 45px;
 }
-.b-1-wrap h2 {
+.b-1-wrap h1 {
 	display: block;
 	font-size: 30px;
 	color: #000000;
@@ -65,7 +65,7 @@ body {
 	margin-bottom: 60px;
 	text-align: left;
 }
-.b-1-wrap h2 span {
+.b-1-wrap h1 span {
 	font-weight: 500;
 }
 .b-1-wrap .about {
