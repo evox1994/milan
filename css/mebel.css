@@ -314,6 +314,12 @@ body {
 	font-size: 18px;
 	line-height: 1.2;
 }
+.b-3-twenty-container {
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	margin: 0 auto;
+}
 
 .b-4 {
 	background-color: rgb(232, 241, 236);
