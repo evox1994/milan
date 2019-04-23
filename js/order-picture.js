@@ -15,9 +15,11 @@ $(document).ready(function(){
 		containerSize();
 	});*/
 
-	$('.b-3-twenty-container').twentytwenty({
-		before_label: 'Эскиз',
-		after_label: 'Картина'
+	$(window).on('load',function(){
+		$('.b-3-twenty-container').twentytwenty({
+			before_label: 'Эскиз',
+			after_label: 'Картина'
+		});
 	});
 
 });
