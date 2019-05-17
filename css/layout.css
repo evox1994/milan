@@ -915,7 +915,7 @@ input:-moz-placeholder {
 .popup form input:focus {
     background-color: #ffffff;
 }
-.popup button {
+.popup form button {
     display: block;
     box-sizing: border-box;
     width: 100%;
@@ -931,7 +931,7 @@ input:-moz-placeholder {
     -ms-transition: all 0.3s;
     transition: all 0.3s;
 }
-.popup button:hover {
+.popup form button:hover {
     background-color: rgb(27, 47, 140);
 }
 .popup .button-text {
